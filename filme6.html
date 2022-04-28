@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>DHFLIX 🎞️ | Jurassic Park</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"
+          ><img
+            src="https://cdn.glitch.com/bdfec9ad-40fd-445e-94d2-7f6a573553f0%2Flogo-dh.svg?v=1633041865854"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse navbar-movies"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="filme1.html">Mad Max</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="filme2.html">Spiderman</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="filme3.html">Vingadores: Ultimato</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="filme4.html">Interestelar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="filme5.html">As Branquelas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="filme6.html">Jurassic Park</a>
+            </li>
+          </ul>
+
+          <button
+            type="button"
+            class="btn btn-primary login-button btn-login"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            Login
+          </button>
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">
+                    Acessar DHFLIX
+                  </h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label"
+                        >Email</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="exampleInputEmail1"
+                        aria-describedby="emailHelp"
+                      />
+                      <div id="emailHelp" class="form-text">
+                        Não compartilhamos o seu e-mail com ninguém.
+                      </div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label"
+                        >Senha</label
+                      >
+                      <input
+                        type="password"
+                        class="form-control"
+                        id="exampleInputPassword1"
+                      />
+                    </div>
+                    <div class="mb-3 form-check">
+                      <input
+                        type="checkbox"
+                        class="form-check-input"
+                        id="exampleCheck1"
+                      />
+                      <label class="form-check-label" for="exampleCheck1"
+                        >Manter sessão ativa</label
+                      >
+                    </div>
+                    <button
+                      type="submit"
+                      class="btn login-button btn-primary btn-login"
+                    >
+                      Acessar
+                    </button>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn-login login-button btn btn-primary"
+                  >
+                    Criar conta
+                  </button>
+                  <button
+                    type="button"
+                    class="btn-login login-button btn"
+                    data-bs-dismiss="modal"
+                  >
+                    Fechar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid container-filme bg-filme6">
+      <div class="filme-desc">
+        <h1>Jurassic Park</h1>
+        <p>
+          Um parque construído por um milionário (Richard Attenborough) tem como
+          habitantes dinossauros diversos, extintos a sessenta e cinco milhões
+          de anos. Isto é possível por ter sido encontrado um inseto
+          fossilizado, que tinha sugado sangue destes dinossauros, de onde
+          pôde-se isolar o DNA, o código químico da vida, e, a partir deste
+          ponto, recriá-los em laboratório. Mas, o que parecia ser um sonho se
+          torna um pesadelo, quando a experiência sai do controle de seus
+          criadores.
+        </p>
+        <button
+          type="button"
+          class="btn-login login-button btn"
+          data-bs-dismiss="modal"
+        >
+          Assistir agora
+        </button>
+      </div>
+      <div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/lc0UehYemQA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

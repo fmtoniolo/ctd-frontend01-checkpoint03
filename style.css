@@ -1,0 +1,140 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: rgb(44, 44, 44);
+  }
+  
+  .btn-login {
+    border-radius: 50px;
+    padding: 4px 24px;
+    background-color: #a90000;
+    border: none;
+  }
+  
+  .navbar-movies {
+    justify-content: space-between;
+  }
+  
+  .login-button {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bolder;
+  }
+  
+  .login-button:hover {
+    color: #fff;
+    background-color: #a90000c2;
+  }
+  
+  .grid-container {
+    margin: 16px;
+  }
+  
+  .parallax {
+    background-image: url("./assets/people-s-emotions-cinema.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bolder;
+    text-align: center;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+    transition: ease-in 200ms;
+  }
+  
+  .container-filme {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #fff;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .container-filme {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      height: 100vh;
+      color: #fff;
+    }
+  
+    iframe {
+      width: 100%;
+      height: 200px;
+      margin-top: 24px;
+    }
+  
+    .filme-desc {
+      margin-top: 274px;
+    } 
+  }
+  
+  .bg-filme1 {
+    background-image: url(https://media.discordapp.net/attachments/890363630950957107/893299573806735370/madmax.jpg?width=1178&height=662);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 16px;
+  }
+  
+  .bg-filme2 {
+      background-image: url(https://media.discordapp.net/attachments/890363630950957107/893300130990669844/img_A_883800_b2df5a4661bc56f05bc69743c2cd9351.png?width=1178&height=662);
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 16px;
+    }
+  
+    .bg-filme3 {
+      background-image: url(https://s3-us-west-2.amazonaws.com/flx-editorial-wordpress/wp-content/uploads/2019/09/01093013/Endgame-Lead-1.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 16px;
+    }
+  
+    .bg-filme4 {
+      background-image: url(http://s2.glbimg.com/aGNPBQMhS5sWfd6kkqAzAxY8ekE=/e.glbimg.com/og/ed/f/original/2014/10/28/interstellar.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 16px;
+    }
+  
+    .bg-filme5 {
+      background-image: url(https://media.discordapp.net/attachments/890363630950957107/893313063418212392/3679610.png?width=1178&height=662);
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 16px;
+    }
+  
+    .bg-filme6 {
+      background-image: url(https://media.discordapp.net/attachments/890363630950957107/893311539271041034/jurassic.jpg?width=1178&height=662);
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 16px;
+    }
+  
+  p {
+    padding-right: 23%;
+  }
+  
+  .modal-backdrop {
+    z-index: -1;
+  }
+  
+  .navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  }
